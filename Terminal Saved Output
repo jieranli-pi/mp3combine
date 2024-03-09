@@ -1,0 +1,504 @@
+Last login: Sat Mar  9 11:53:12 on ttys000
+(base) jieranli@jierans-MacBook-Air ~ % which ffmpeg
+
+/opt/homebrew/bin/ffmpeg
+(base) jieranli@jierans-MacBook-Air ~ % which ffprobe
+
+/opt/homebrew/bin/ffprobe
+(base) jieranli@jierans-MacBook-Air ~ % ls
+4blocks.mtl			Pictures
+4blocks.obj			Public
+Applications			Untitled.ipynb
+CIE4603part2.ipynb		VirtualBox VMs
+CLionProjects			ass1.qgz
+Desktop				matlab_crash_dump.1136-1
+Documents			matlab_crash_dump.14758-1
+Downloads			matlab_crash_dump.14758-2
+IdeaProjects			matlab_crash_dump.76017-1
+Library				opt
+Movies				secondpart-Copy1.ipynb
+Music				secondpart.ipynb
+(base) jieranli@jierans-MacBook-Air ~ % cd Downloads 
+(base) jieranli@jierans-MacBook-Air Downloads % cd delftsemethodegood/groenboek
+(base) jieranli@jierans-MacBook-Air groenboek % ls
+Les07_00.mp3	les10_30.mp3	les18_46.mp3	les27_10.mp3	les35_20.mp3
+Les09_00.mp3	les10_31.mp3	les18_47.mp3	les27_11.mp3	les35_21.mp3
+Les26_00.mp3	les10_32.mp3	les18_48.mp3	les27_12.mp3	les35_22.mp3
+Les27_00.mp3	les10_33.mp3	les18_49.mp3	les27_13.mp3	les35_23.mp3
+combinemp3.py	les10_34.mp3	les18_50.mp3	les27_14.mp3	les35_24.mp3
+exported	les10_35.mp3	les18_51.mp3	les27_15.mp3	les35_25.mp3
+les01_00.mp3	les10_36.mp3	les18_52.mp3	les27_16.mp3	les35_26.mp3
+les01_01.mp3	les10_37.mp3	les19_00.mp3	les27_17.mp3	les35_27.mp3
+les01_02.mp3	les10_38.mp3	les19_01.mp3	les27_18.mp3	les35_28.mp3
+les01_03.mp3	les10_39.mp3	les19_02.mp3	les27_19.mp3	les35_29.mp3
+les01_04.mp3	les10_40.mp3	les19_03.mp3	les27_20.mp3	les35_30.mp3
+les01_05.mp3	les10_41.mp3	les19_04.mp3	les27_21.mp3	les35_31.mp3
+les01_06.mp3	les10_42.mp3	les19_05.mp3	les27_22.mp3	les35_32.mp3
+les01_07.mp3	les10_43.mp3	les19_06.mp3	les27_23.mp3	les35_33.mp3
+les01_08.mp3	les11_00.mp3	les19_07.mp3	les27_24.mp3	les35_34.mp3
+les01_09.mp3	les11_01.mp3	les19_08.mp3	les27_25.mp3	les35_35.mp3
+les01_10.mp3	les11_02.mp3	les19_09.mp3	les27_26.mp3	les35_36.mp3
+les01_11.mp3	les11_03.mp3	les19_10.mp3	les27_27.mp3	les35_37.mp3
+les01_12.mp3	les11_04.mp3	les19_11.mp3	les27_28.mp3	les35_38.mp3
+les01_13.mp3	les11_05.mp3	les19_12.mp3	les27_29.mp3	les35_39.mp3
+les01_14.mp3	les11_06.mp3	les19_13.mp3	les27_30.mp3	les35_40.mp3
+les01_15.mp3	les11_07.mp3	les19_14.mp3	les27_31.mp3	les35_41.mp3
+les01_16.mp3	les11_08.mp3	les19_15.mp3	les27_32.mp3	les35_42.mp3
+les01_17.mp3	les11_09.mp3	les19_16.mp3	les27_33.mp3	les35_43.mp3
+les01_18.mp3	les11_10.mp3	les19_17.mp3	les27_34.mp3	les35_44.mp3
+les01_19.mp3	les11_11.mp3	les19_18.mp3	les27_35.mp3	les35_45.mp3
+les01_20.mp3	les11_12.mp3	les19_19.mp3	les27_36.mp3	les35_46.mp3
+les01_21.mp3	les11_13.mp3	les19_20.mp3	les27_37.mp3	les35_47.mp3
+les01_22.mp3	les11_14.mp3	les19_21.mp3	les27_38.mp3	les35_48.mp3
+les01_23.mp3	les11_15.mp3	les19_22.mp3	les27_39.mp3	les35_49.mp3
+les01_24.mp3	les11_16.mp3	les19_23.mp3	les27_40.mp3	les35_50.mp3
+les01_25.mp3	les11_17.mp3	les19_24.mp3	les28_00.mp3	les35_51.mp3
+les01_26.mp3	les11_18.mp3	les19_25.mp3	les28_01.mp3	les36_00.mp3
+les01_27.mp3	les11_19.mp3	les19_26.mp3	les28_02.mp3	les36_01.mp3
+les01_28.mp3	les11_20.mp3	les19_27.mp3	les28_03.mp3	les36_02.mp3
+les01_29.mp3	les11_21.mp3	les19_28.mp3	les28_04.mp3	les36_03.mp3
+les01_30.mp3	les11_22.mp3	les19_29.mp3	les28_05.mp3	les36_04.mp3
+les01_31.mp3	les11_23.mp3	les19_30.mp3	les28_06.mp3	les36_05.mp3
+les01_32.mp3	les11_24.mp3	les19_31.mp3	les28_07.mp3	les36_06.mp3
+les01_33.mp3	les11_25.mp3	les19_32.mp3	les28_08.mp3	les36_07.mp3
+les01_34.mp3	les11_26.mp3	les19_33.mp3	les28_09.mp3	les36_08.mp3
+les01_35.mp3	les11_27.mp3	les19_34.mp3	les28_10.mp3	les36_09.mp3
+les01_36.mp3	les11_28.mp3	les19_35.mp3	les28_11.mp3	les36_10.mp3
+les01_37.mp3	les11_29.mp3	les19_36.mp3	les28_12.mp3	les36_11.mp3
+les01_38.mp3	les11_30.mp3	les19_37.mp3	les28_13.mp3	les36_12.mp3
+les01_39.mp3	les11_31.mp3	les19_38.mp3	les28_14.mp3	les36_13.mp3
+les01_40.mp3	les11_32.mp3	les19_39.mp3	les28_15.mp3	les36_14.mp3
+les02_00.mp3	les11_33.mp3	les19_40.mp3	les28_16.mp3	les36_15.mp3
+les02_01.mp3	les11_34.mp3	les19_41.mp3	les28_17.mp3	les36_16.mp3
+les02_02.mp3	les11_35.mp3	les19_42.mp3	les28_18.mp3	les36_17.mp3
+les02_03.mp3	les11_36.mp3	les19_43.mp3	les28_19.mp3	les36_18.mp3
+les02_04.mp3	les11_37.mp3	les19_44.mp3	les28_20.mp3	les36_19.mp3
+les02_05.mp3	les11_38.mp3	les19_45.mp3	les28_21.mp3	les36_20.mp3
+les02_06.mp3	les11_39.mp3	les19_46.mp3	les28_22.mp3	les36_21.mp3
+les02_07.mp3	les11_40.mp3	les19_47.mp3	les28_23.mp3	les36_22.mp3
+les02_08.mp3	les11_41.mp3	les19_48.mp3	les28_24.mp3	les36_23.mp3
+les02_09.mp3	les11_42.mp3	les19_49.mp3	les28_25.mp3	les36_24.mp3
+les02_10.mp3	les11_43.mp3	les19_50.mp3	les28_26.mp3	les36_25.mp3
+les02_11.mp3	les11_44.mp3	les20_00.mp3	les28_27.mp3	les36_26.mp3
+les02_12.mp3	les11_45.mp3	les20_01.mp3	les28_28.mp3	les36_27.mp3
+les02_13.mp3	les11_46.mp3	les20_02.mp3	les28_29.mp3	les36_28.mp3
+les02_14.mp3	les11_47.mp3	les20_03.mp3	les28_30.mp3	les36_29.mp3
+les02_15.mp3	les11_48.mp3	les20_04.mp3	les28_31.mp3	les36_30.mp3
+les02_16.mp3	les11_49.mp3	les20_05.mp3	les28_32.mp3	les36_31.mp3
+les02_17.mp3	les11_50.mp3	les20_06.mp3	les28_33.mp3	les36_32.mp3
+les02_18.mp3	les11_51.mp3	les20_07.mp3	les28_34.mp3	les36_33.mp3
+les02_19.mp3	les11_52.mp3	les20_08.mp3	les28_35.mp3	les36_34.mp3
+les02_20.mp3	les12_00.mp3	les20_09.mp3	les28_36.mp3	les36_35.mp3
+les02_21.mp3	les12_01.mp3	les20_10.mp3	les28_37.mp3	les36_36.mp3
+les02_22.mp3	les12_02.mp3	les20_11.mp3	les28_38.mp3	les36_37.mp3
+les02_23.mp3	les12_03.mp3	les20_12.mp3	les28_39.mp3	les36_38.mp3
+les02_24.mp3	les12_04.mp3	les20_13.mp3	les28_40.mp3	les36_39.mp3
+les02_25.mp3	les12_05.mp3	les20_14.mp3	les28_41.mp3	les36_40.mp3
+les02_26.mp3	les12_06.mp3	les20_15.mp3	les28_42.mp3	les36_41.mp3
+les02_27.mp3	les12_07.mp3	les20_16.mp3	les28_43.mp3	les36_42.mp3
+les02_28.mp3	les12_08.mp3	les20_17.mp3	les28_44.mp3	les36_43.mp3
+les02_29.mp3	les12_09.mp3	les20_18.mp3	les28_45.mp3	les36_44.mp3
+les02_30.mp3	les12_10.mp3	les20_19.mp3	les28_46.mp3	les36_45.mp3
+les02_31.mp3	les12_11.mp3	les20_20.mp3	les28_47.mp3	les36_46.mp3
+les02_32.mp3	les12_12.mp3	les20_21.mp3	les28_48.mp3	les36_47.mp3
+les02_33.mp3	les12_13.mp3	les20_22.mp3	les28_49.mp3	les36_48.mp3
+les03_00.mp3	les12_14.mp3	les20_23.mp3	les28_50.mp3	les36_49.mp3
+les03_01.mp3	les12_15.mp3	les20_24.mp3	les28_51.mp3	les36_50.mp3
+les03_02.mp3	les12_16.mp3	les20_25.mp3	les29_00.mp3	les36_51.mp3
+les03_03.mp3	les12_17.mp3	les20_26.mp3	les29_01.mp3	les36_52.mp3
+les03_04.mp3	les12_18.mp3	les20_27.mp3	les29_02.mp3	les37_00.mp3
+les03_05.mp3	les12_19.mp3	les20_28.mp3	les29_03.mp3	les37_01.mp3
+les03_06.mp3	les12_20.mp3	les20_29.mp3	les29_04.mp3	les37_02.mp3
+les03_07.mp3	les12_21.mp3	les20_30.mp3	les29_05.mp3	les37_03.mp3
+les03_08.mp3	les12_22.mp3	les20_31.mp3	les29_06.mp3	les37_04.mp3
+les03_09.mp3	les12_23.mp3	les20_32.mp3	les29_07.mp3	les37_05.mp3
+les03_10.mp3	les12_24.mp3	les20_33.mp3	les29_08.mp3	les37_06.mp3
+les03_11.mp3	les12_25.mp3	les20_34.mp3	les29_09.mp3	les37_07.mp3
+les03_12.mp3	les12_26.mp3	les20_35.mp3	les29_10.mp3	les37_08.mp3
+les03_13.mp3	les12_27.mp3	les20_36.mp3	les29_11.mp3	les37_09.mp3
+les03_14.mp3	les12_28.mp3	les20_37.mp3	les29_12.mp3	les37_10.mp3
+les03_15.mp3	les12_29.mp3	les20_38.mp3	les29_13.mp3	les37_11.mp3
+les03_16.mp3	les12_30.mp3	les20_39.mp3	les29_14.mp3	les37_12.mp3
+les03_17.mp3	les12_31.mp3	les20_40.mp3	les29_15.mp3	les37_13.mp3
+les03_18.mp3	les12_32.mp3	les20_41.mp3	les29_16.mp3	les37_14.mp3
+les03_19.mp3	les12_33.mp3	les20_42.mp3	les29_17.mp3	les37_15.mp3
+les03_20.mp3	les12_34.mp3	les20_43.mp3	les29_18.mp3	les37_16.mp3
+les03_21.mp3	les12_35.mp3	les20_44.mp3	les29_19.mp3	les37_17.mp3
+les03_22.mp3	les12_36.mp3	les20_45.mp3	les29_20.mp3	les37_18.mp3
+les03_23.mp3	les12_37.mp3	les20_46.mp3	les29_21.mp3	les37_19.mp3
+les03_24.mp3	les12_38.mp3	les20_47.mp3	les29_22.mp3	les37_20.mp3
+les03_25.mp3	les12_39.mp3	les20_48.mp3	les29_23.mp3	les37_21.mp3
+les03_26.mp3	les12_40.mp3	les21_00.mp3	les29_24.mp3	les37_22.mp3
+les03_27.mp3	les12_41.mp3	les21_01.mp3	les29_25.mp3	les37_23.mp3
+les03_28.mp3	les12_42.mp3	les21_02.mp3	les29_26.mp3	les37_24.mp3
+les03_29.mp3	les12_43.mp3	les21_03.mp3	les29_27.mp3	les37_25.mp3
+les03_30.mp3	les12_44.mp3	les21_04.mp3	les29_28.mp3	les37_26.mp3
+les03_31.mp3	les12_45.mp3	les21_05.mp3	les29_29.mp3	les37_27.mp3
+les03_32.mp3	les12_46.mp3	les21_06.mp3	les29_30.mp3	les37_28.mp3
+les03_33.mp3	les12_47.mp3	les21_07.mp3	les29_31.mp3	les37_29.mp3
+les03_34.mp3	les12_48.mp3	les21_08.mp3	les29_32.mp3	les37_30.mp3
+les04_00.mp3	les13_00.mp3	les21_09.mp3	les29_33.mp3	les37_31.mp3
+les04_01.mp3	les13_01.mp3	les21_10.mp3	les29_34.mp3	les37_32.mp3
+les04_02.mp3	les13_02.mp3	les21_11.mp3	les29_35.mp3	les37_33.mp3
+les04_03.mp3	les13_03.mp3	les21_12.mp3	les29_36.mp3	les37_34.mp3
+les04_04.mp3	les13_04.mp3	les21_13.mp3	les29_37.mp3	les37_35.mp3
+les04_05.mp3	les13_05.mp3	les21_14.mp3	les29_38.mp3	les37_36.mp3
+les04_06.mp3	les13_06.mp3	les21_15.mp3	les29_39.mp3	les37_37.mp3
+les04_07.mp3	les13_07.mp3	les21_16.mp3	les29_40.mp3	les37_38.mp3
+les04_08.mp3	les13_08.mp3	les21_17.mp3	les29_41.mp3	les37_39.mp3
+les04_09.mp3	les13_09.mp3	les21_18.mp3	les29_42.mp3	les37_40.mp3
+les04_10.mp3	les13_10.mp3	les21_19.mp3	les29_43.mp3	les37_41.mp3
+les04_11.mp3	les13_11.mp3	les21_20.mp3	les29_44.mp3	les37_42.mp3
+les04_12.mp3	les13_12.mp3	les21_21.mp3	les29_45.mp3	les37_43.mp3
+les04_13.mp3	les13_13.mp3	les21_22.mp3	les29_46.mp3	les37_44.mp3
+les04_14.mp3	les13_14.mp3	les21_23.mp3	les29_47.mp3	les37_45.mp3
+les04_15.mp3	les13_15.mp3	les21_24.mp3	les29_48.mp3	les37_46.mp3
+les04_16.mp3	les13_16.mp3	les21_25.mp3	les29_49.mp3	les37_47.mp3
+les04_17.mp3	les13_17.mp3	les21_26.mp3	les29_50.mp3	les37_48.mp3
+les04_18.mp3	les13_18.mp3	les21_27.mp3	les29_51.mp3	les37_49.mp3
+les04_19.mp3	les13_19.mp3	les21_28.mp3	les29_52.mp3	les37_50.mp3
+les04_20.mp3	les13_20.mp3	les21_29.mp3	les29_53.mp3	les37_51.mp3
+les04_21,.mp3	les13_21.mp3	les21_30.mp3	les29_54.mp3	les37_52.mp3
+les04_22.mp3	les13_22.mp3	les21_31.mp3	les30_00.mp3	les37_53.mp3
+les04_23.mp3	les13_23.mp3	les21_32.mp3	les30_01.mp3	les37_54.mp3
+les04_24.mp3	les13_24.mp3	les21_33.mp3	les30_02.mp3	les37_55.mp3
+les04_25.mp3	les13_25.mp3	les21_34.mp3	les30_03.mp3	les38_00.mp3
+les04_26.mp3	les13_26.mp3	les21_35.mp3	les30_04.mp3	les38_01.mp3
+les04_27.mp3	les13_27.mp3	les21_36.mp3	les30_05.mp3	les38_02.mp3
+les04_28.mp3	les13_28.mp3	les21_37.mp3	les30_06.mp3	les38_03.mp3
+les04_29.mp3	les13_29.mp3	les21_38.mp3	les30_07.mp3	les38_04.mp3
+les04_30.mp3	les13_30.mp3	les21_39.mp3	les30_08.mp3	les38_05.mp3
+les04_31.mp3	les13_31.mp3	les21_40.mp3	les30_09.mp3	les38_06.mp3
+les04_32.mp3	les13_32.mp3	les21_41.mp3	les30_10.mp3	les38_07.mp3
+les04_33.mp3	les13_33.mp3	les21_42.mp3	les30_11.mp3	les38_08.mp3
+les04_34.mp3	les13_34.mp3	les21_43.mp3	les30_12.mp3	les38_09.mp3
+les04_35.mp3	les13_35.mp3	les21_44.mp3	les30_13.mp3	les38_10.mp3
+les04_36.mp3	les13_36.mp3	les21_45.mp3	les30_14.mp3	les38_11.mp3
+les04_37.mp3	les13_37.mp3	les21_46.mp3	les30_15.mp3	les38_12.mp3
+les04_38.mp3	les13_38.mp3	les21_47.mp3	les30_16.mp3	les38_13.mp3
+les04_39.mp3	les13_39.mp3	les21_48.mp3	les30_17.mp3	les38_14.mp3
+les04_40.mp3	les13_40.mp3	les21_49.mp3	les30_18.mp3	les38_15.mp3
+les04_41.mp3	les13_41.mp3	les21_50.mp3	les30_19.mp3	les38_16.mp3
+les05_00.mp3	les13_42.mp3	les21_51.mp3	les30_20.mp3	les38_17.mp3
+les05_01.mp3	les13_43.mp3	les21_52.mp3	les30_21.mp3	les38_18.mp3
+les05_02.mp3	les13_44.mp3	les21_53.mp3	les30_22.mp3	les38_19.mp3
+les05_03.mp3	les13_45.mp3	les21_54.mp3	les30_23.mp3	les38_20.mp3
+les05_04.mp3	les13_46.mp3	les21_55.mp3	les30_24.mp3	les38_21.mp3
+les05_05.mp3	les13_47.mp3	les21_56.mp3	les30_25.mp3	les38_22.mp3
+les05_06.mp3	les13_48.mp3	les22_00.mp3	les30_26.mp3	les38_23.mp3
+les05_07.mp3	les14_00.mp3	les22_01.mp3	les30_27.mp3	les38_24.mp3
+les05_08.mp3	les14_01.mp3	les22_02.mp3	les30_28.mp3	les38_25.mp3
+les05_09.mp3	les14_02.mp3	les22_03.mp3	les30_29.mp3	les38_26.mp3
+les05_10.mp3	les14_03.mp3	les22_04.mp3	les30_30.mp3	les38_27.mp3
+les05_11.mp3	les14_04.mp3	les22_05.mp3	les30_31.mp3	les38_28.mp3
+les05_12.mp3	les14_05.mp3	les22_06.mp3	les30_32.mp3	les38_29.mp3
+les05_13.mp3	les14_06.mp3	les22_07.mp3	les30_33.mp3	les38_30.mp3
+les05_14.mp3	les14_07.mp3	les22_08.mp3	les30_34.mp3	les38_31.mp3
+les05_15.mp3	les14_08.mp3	les22_09.mp3	les30_35.mp3	les38_32.mp3
+les05_16.mp3	les14_09.mp3	les22_10.mp3	les30_36.mp3	les38_33.mp3
+les05_17.mp3	les14_10.mp3	les22_11.mp3	les30_37.mp3	les38_34.mp3
+les05_18.mp3	les14_11.mp3	les22_12.mp3	les30_38.mp3	les38_35.mp3
+les05_19.mp3	les14_12.mp3	les22_13.mp3	les30_39.mp3	les38_36.mp3
+les05_20.mp3	les14_13.mp3	les22_14.mp3	les30_40.mp3	les38_37.mp3
+les05_21.mp3	les14_14.mp3	les22_15.mp3	les30_41.mp3	les38_38.mp3
+les05_22.mp3	les14_15.mp3	les22_16.mp3	les30_42.mp3	les38_39.mp3
+les05_23.mp3	les14_16.mp3	les22_17.mp3	les30_43.mp3	les38_40.mp3
+les05_24.mp3	les14_17.mp3	les22_18.mp3	les30_44.mp3	les38_41.mp3
+les05_25.mp3	les14_18.mp3	les22_19.mp3	les30_45.mp3	les38_42.mp3
+les05_26.mp3	les14_19.mp3	les22_20.mp3	les30_46.mp3	les38_43.mp3
+les05_27.mp3	les14_20.mp3	les22_21.mp3	les30_47.mp3	les38_44.mp3
+les05_28.mp3	les14_21.mp3	les22_22.mp3	les30_48.mp3	les38_45.mp3
+les05_29.mp3	les14_22.mp3	les22_23.mp3	les30_49.mp3	les38_46.mp3
+les05_30.mp3	les14_23.mp3	les22_24.mp3	les31_00.mp3	les38_47.mp3
+les05_31.mp3	les14_24.mp3	les22_25.mp3	les31_01.mp3	les38_48.mp3
+les05_32.mp3	les14_25.mp3	les22_26.mp3	les31_02.mp3	les38_49.mp3
+les05_33.mp3	les14_26.mp3	les22_27.mp3	les31_03.mp3	les38_50.mp3
+les05_34.mp3	les14_27.mp3	les22_28.mp3	les31_04.mp3	les38_51.mp3
+les05_35.mp3	les14_28.mp3	les22_29.mp3	les31_05.mp3	les38_52.mp3
+les05_36.mp3	les14_29.mp3	les22_30.mp3	les31_06.mp3	les38_53.mp3
+les05_37.mp3	les14_30.mp3	les22_31.mp3	les31_07.mp3	les38_54.mp3
+les05_38.mp3	les14_31.mp3	les22_32.mp3	les31_08.mp3	les38_55.mp3
+les05_39.mp3	les14_32.mp3	les22_33.mp3	les31_09.mp3	les39_00.mp3
+les05_40.mp3	les14_33.mp3	les22_34.mp3	les31_10.mp3	les39_01.mp3
+les05_41.mp3	les14_34.mp3	les22_35.mp3	les31_11.mp3	les39_02.mp3
+les05_42.mp3	les14_35.mp3	les22_36.mp3	les31_12.mp3	les39_03.mp3
+les05_43.mp3	les14_36.mp3	les22_37.mp3	les31_13.mp3	les39_04.mp3
+les06_00.mp3	les14_37.mp3	les22_38.mp3	les31_14.mp3	les39_05.mp3
+les06_01.mp3	les14_38.mp3	les22_39.mp3	les31_15.mp3	les39_06.mp3
+les06_02.mp3	les14_39.mp3	les22_40.mp3	les31_16.mp3	les39_07.mp3
+les06_03.mp3	les14_40.mp3	les22_41.mp3	les31_17.mp3	les39_08.mp3
+les06_04.mp3	les14_41.mp3	les22_42.mp3	les31_18.mp3	les39_09.mp3
+les06_05.mp3	les14_42.mp3	les22_43.mp3	les31_19.mp3	les39_10.mp3
+les06_06.mp3	les14_43.mp3	les22_44.mp3	les31_20.mp3	les39_11.mp3
+les06_07.mp3	les14_44.mp3	les22_45.mp3	les31_21.mp3	les39_12.mp3
+les06_08.mp3	les14_45.mp3	les23_00.mp3	les31_22.mp3	les39_13.mp3
+les06_09.mp3	les14_46.mp3	les23_01.mp3	les31_23.mp3	les39_14.mp3
+les06_10.mp3	les14_47.mp3	les23_02.mp3	les31_24.mp3	les39_15.mp3
+les06_11.mp3	les14_48.mp3	les23_03.mp3	les31_25.mp3	les39_16.mp3
+les06_12.mp3	les14_49.mp3	les23_04.mp3	les31_26.mp3	les39_17.mp3
+les06_13.mp3	les14_50.mp3	les23_05.mp3	les31_27.mp3	les39_18.mp3
+les06_14.mp3	les14_51.mp3	les23_06.mp3	les31_28.mp3	les39_19.mp3
+les06_15.mp3	les14_52.mp3	les23_07.mp3	les31_29.mp3	les39_20.mp3
+les06_16.mp3	les15_00.mp3	les23_08.mp3	les31_30.mp3	les39_21.mp3
+les06_17.mp3	les15_01.mp3	les23_09.mp3	les31_31.mp3	les39_22.mp3
+les06_18.mp3	les15_02.mp3	les23_10.mp3	les31_32.mp3	les39_23.mp3
+les06_19.mp3	les15_03.mp3	les23_11.mp3	les31_33.mp3	les39_24.mp3
+les06_20.mp3	les15_04.mp3	les23_12.mp3	les31_34.mp3	les39_25.mp3
+les06_21.mp3	les15_05.mp3	les23_13.mp3	les31_35.mp3	les39_26.mp3
+les06_22.mp3	les15_06.mp3	les23_14.mp3	les31_36.mp3	les39_27.mp3
+les06_23.mp3	les15_07.mp3	les23_15.mp3	les31_37.mp3	les39_28.mp3
+les06_24.mp3	les15_08.mp3	les23_16.mp3	les31_38.mp3	les39_29.mp3
+les06_25.mp3	les15_09.mp3	les23_17.mp3	les31_39.mp3	les39_30.mp3
+les06_26.mp3	les15_10.mp3	les23_18.mp3	les31_40.mp3	les39_31.mp3
+les06_27.mp3	les15_11.mp3	les23_19.mp3	les31_41.mp3	les39_32.mp3
+les06_28.mp3	les15_12.mp3	les23_20.mp3	les31_42.mp3	les39_33.mp3
+les06_29.mp3	les15_13.mp3	les23_21.mp3	les31_43.mp3	les39_34.mp3
+les06_30.mp3	les15_14.mp3	les23_22.mp3	les31_44.mp3	les39_35.mp3
+les06_31.mp3	les15_15.mp3	les23_23.mp3	les31_45.mp3	les39_36.mp3
+les06_32.mp3	les15_16.mp3	les23_24.mp3	les31_46.mp3	les39_37.mp3
+les06_33.mp3	les15_17.mp3	les23_25.mp3	les31_47.mp3	les39_38.mp3
+les06_34.mp3	les15_18.mp3	les23_26.mp3	les31_48.mp3	les39_39.mp3
+les07_01.mp3	les15_19.mp3	les23_27.mp3	les31_49.mp3	les39_40.mp3
+les07_02.mp3	les15_20.mp3	les23_28.mp3	les31_50.mp3	les39_41.mp3
+les07_03.mp3	les15_21.mp3	les23_29.mp3	les31_51.mp3	les39_42.mp3
+les07_04.mp3	les15_22.mp3	les23_30.mp3	les31_52.mp3	les39_43.mp3
+les07_05.mp3	les15_23.mp3	les23_31.mp3	les31_53.mp3	les39_44.mp3
+les07_06.mp3	les15_24.mp3	les23_32.mp3	les32_00.mp3	les39_45.mp3
+les07_07.mp3	les15_25.mp3	les23_33.mp3	les32_01.mp3	les39_46.mp3
+les07_08.mp3	les15_26.mp3	les23_34.mp3	les32_02.mp3	les39_47.mp3
+les07_09.mp3	les15_27.mp3	les23_35.mp3	les32_03.mp3	les39_48.mp3
+les07_10.mp3	les15_28.mp3	les23_36.mp3	les32_04.mp3	les39_49.mp3
+les07_11.mp3	les15_29.mp3	les23_37.mp3	les32_05.mp3	les39_50.mp3
+les07_12.mp3	les15_30.mp3	les23_38.mp3	les32_06.mp3	les39_51.mp3
+les07_13.mp3	les15_31.mp3	les23_39.mp3	les32_07.mp3	les39_52.mp3
+les07_14.mp3	les15_32.mp3	les23_40.mp3	les32_08.mp3	les39_53.mp3
+les07_15.mp3	les15_33.mp3	les23_41.mp3	les32_09.mp3	les39_54.mp3
+les07_16.mp3	les15_34.mp3	les23_42.mp3	les32_10.mp3	les39_55.mp3
+les07_17.mp3	les15_35.mp3	les23_43.mp3	les32_11.mp3	les39_56.mp3
+les07_18.mp3	les15_36.mp3	les23_44.mp3	les32_12.mp3	les39_57.mp3
+les07_19.mp3	les15_37.mp3	les23_45.mp3	les32_13.mp3	les39_58.mp3
+les07_20.mp3	les15_38.mp3	les23_46.mp3	les32_14.mp3	les40_00.mp3
+les07_21.mp3	les15_39.mp3	les23_47.mp3	les32_15.mp3	les40_01.mp3
+les07_22.mp3	les15_40.mp3	les23_48.mp3	les32_16.mp3	les40_02.mp3
+les07_23.mp3	les15_41.mp3	les23_49.mp3	les32_17.mp3	les40_03.mp3
+les07_24.mp3	les15_42.mp3	les23_50.mp3	les32_18.mp3	les40_04.mp3
+les07_25.mp3	les15_43.mp3	les23_51.mp3	les32_19.mp3	les40_05.mp3
+les07_26.mp3	les15_44.mp3	les23_52.mp3	les32_20.mp3	les40_06.mp3
+les07_27.mp3	les15_45.mp3	les23_53.mp3	les32_21.mp3	les40_07.mp3
+les07_28.mp3	les15_46.mp3	les23_54.mp3	les32_22.mp3	les40_08.mp3
+les07_29.mp3	les15_47.mp3	les23_55.mp3	les32_23.mp3	les40_09.mp3
+les07_30.mp3	les15_48.mp3	les24_00.mp3	les32_24.mp3	les40_10.mp3
+les07_31.mp3	les15_49.mp3	les24_01.mp3	les32_25.mp3	les40_11.mp3
+les07_32.mp3	les15_50.mp3	les24_02.mp3	les32_26.mp3	les40_12.mp3
+les07_33.mp3	les15_51.mp3	les24_03.mp3	les32_27.mp3	les40_13.mp3
+les07_34.mp3	les15_52.mp3	les24_04.mp3	les32_28.mp3	les40_14.mp3
+les07_35.mp3	les16_00.mp3	les24_05.mp3	les32_29.mp3	les40_15.mp3
+les07_36.mp3	les16_01.mp3	les24_06.mp3	les32_30.mp3	les40_16.mp3
+les07_37.mp3	les16_02.mp3	les24_07.mp3	les32_31.mp3	les40_17.mp3
+les07_38.mp3	les16_03.mp3	les24_08.mp3	les32_32.mp3	les40_18.mp3
+les07_39.mp3	les16_04.mp3	les24_09.mp3	les32_33.mp3	les40_19.mp3
+les07_40.mp3	les16_05.mp3	les24_10.mp3	les32_34.mp3	les40_20.mp3
+les07_41.mp3	les16_06.mp3	les24_11.mp3	les32_35.mp3	les40_21.mp3
+les07_42.mp3	les16_07.mp3	les24_12.mp3	les32_36.mp3	les40_22.mp3
+les07_43.mp3	les16_08.mp3	les24_13.mp3	les32_37.mp3	les40_23.mp3
+les07_44.mp3	les16_09.mp3	les24_14.mp3	les32_38.mp3	les40_24.mp3
+les07_45.mp3	les16_10.mp3	les24_15.mp3	les32_39.mp3	les40_25.mp3
+les07_46.mp3	les16_11.mp3	les24_16.mp3	les32_40.mp3	les40_26.mp3
+les07_47.mp3	les16_12.mp3	les24_17.mp3	les32_41.mp3	les40_27.mp3
+les07_48.mp3	les16_13.mp3	les24_18.mp3	les32_42.mp3	les40_28.mp3
+les07_49.mp3	les16_14.mp3	les24_19.mp3	les32_43.mp3	les40_29.mp3
+les07_50.mp3	les16_15.mp3	les24_20.mp3	les32_44.mp3	les40_30.mp3
+les07_51.mp3	les16_16.mp3	les24_21.mp3	les32_45.mp3	les40_31.mp3
+les08_00.mp3	les16_17.mp3	les24_22.mp3	les32_46.mp3	les40_32.mp3
+les08_01.mp3	les16_18.mp3	les24_23.mp3	les32_47.mp3	les40_33.mp3
+les08_02.mp3	les16_19.mp3	les24_24.mp3	les32_48.mp3	les40_34.mp3
+les08_03.mp3	les16_20.mp3	les24_25.mp3	les32_49.mp3	les40_35.mp3
+les08_04.mp3	les16_21.mp3	les24_26.mp3	les32_50.mp3	les40_36.mp3
+les08_05.mp3	les16_22.mp3	les24_27.mp3	les32_51.mp3	les40_37.mp3
+les08_06.mp3	les16_23.mp3	les24_28.mp3	les32_52.mp3	les40_38.mp3
+les08_07.mp3	les16_24.mp3	les24_29.mp3	les33_00.mp3	les40_39.mp3
+les08_08.mp3	les16_25.mp3	les24_30.mp3	les33_01.mp3	les40_40.mp3
+les08_09.mp3	les16_26.mp3	les24_31.mp3	les33_02.mp3	les40_41.mp3
+les08_10.mp3	les16_27.mp3	les24_32.mp3	les33_03.mp3	les40_42.mp3
+les08_11.mp3	les16_28.mp3	les24_33.mp3	les33_04.mp3	les40_43.mp3
+les08_12.mp3	les16_29.mp3	les24_34.mp3	les33_05.mp3	les40_44.mp3
+les08_13.mp3	les16_30.mp3	les24_35.mp3	les33_06.mp3	les40_45.mp3
+les08_14.mp3	les16_31.mp3	les24_36.mp3	les33_07.mp3	les40_46.mp3
+les08_15.mp3	les16_32.mp3	les24_37.mp3	les33_08.mp3	les40_47.mp3
+les08_16.mp3	les16_33.mp3	les24_38.mp3	les33_09.mp3	les41_00.mp3
+les08_17.mp3	les16_34.mp3	les24_39.mp3	les33_10.mp3	les41_01.mp3
+les08_18.mp3	les16_35.mp3	les24_40.mp3	les33_11.mp3	les41_02.mp3
+les08_19.mp3	les16_36.mp3	les24_41.mp3	les33_12.mp3	les41_03.mp3
+les08_20.mp3	les16_37.mp3	les24_42.mp3	les33_13.mp3	les41_04.mp3
+les08_21.mp3	les16_38.mp3	les24_43.mp3	les33_14.mp3	les41_05.mp3
+les08_22.mp3	les16_39.mp3	les24_44.mp3	les33_15.mp3	les41_06.mp3
+les08_23.mp3	les16_40.mp3	les24_45.mp3	les33_16.mp3	les41_07.mp3
+les08_24.mp3	les16_41.mp3	les24_46.mp3	les33_17.mp3	les41_08.mp3
+les08_25.mp3	les16_42.mp3	les24_47.mp3	les33_18.mp3	les41_09.mp3
+les08_26.mp3	les16_43.mp3	les24_48.mp3	les33_19.mp3	les41_10.mp3
+les08_27.mp3	les16_44.mp3	les24_49.mp3	les33_20.mp3	les41_11.mp3
+les08_28.mp3	les16_45.mp3	les24_50.mp3	les33_21.mp3	les41_12.mp3
+les08_29.mp3	les16_46.mp3	les24_51.mp3	les33_22.mp3	les41_13.mp3
+les08_30.mp3	les16_47.mp3	les24_52.mp3	les33_23.mp3	les41_14.mp3
+les08_31.mp3	les16_48.mp3	les24_53.mp3	les33_24.mp3	les41_15.mp3
+les08_32.mp3	les16_49.mp3	les25_00.mp3	les33_25.mp3	les41_16.mp3
+les08_33.mp3	les17_00.mp3	les25_01.mp3	les33_26.mp3	les41_17.mp3
+les08_34.mp3	les17_01.mp3	les25_02.mp3	les33_27.mp3	les41_18.mp3
+les08_35.mp3	les17_02.mp3	les25_03.mp3	les33_28.mp3	les41_19.mp3
+les08_36.mp3	les17_03.mp3	les25_04.mp3	les33_29.mp3	les41_20.mp3
+les08_37.mp3	les17_04.mp3	les25_05.mp3	les33_30.mp3	les41_21.mp3
+les08_38.mp3	les17_05.mp3	les25_06.mp3	les33_31.mp3	les41_22.mp3
+les08_39.mp3	les17_06.mp3	les25_07.mp3	les33_32.mp3	les41_23.mp3
+les08_40.mp3	les17_07.mp3	les25_08.mp3	les33_33.mp3	les41_24.mp3
+les08_41.mp3	les17_08.mp3	les25_09.mp3	les33_34.mp3	les41_25.mp3
+les09_01.mp3	les17_09.mp3	les25_10.mp3	les33_35.mp3	les41_26.mp3
+les09_02.mp3	les17_10.mp3	les25_11.mp3	les33_36.mp3	les41_27.mp3
+les09_03.mp3	les17_11.mp3	les25_12.mp3	les33_37.mp3	les41_28.mp3
+les09_04.mp3	les17_12.mp3	les25_13.mp3	les33_38.mp3	les41_29.mp3
+les09_05.mp3	les17_13.mp3	les25_14.mp3	les33_39.mp3	les41_30.mp3
+les09_06.mp3	les17_14.mp3	les25_15.mp3	les33_40.mp3	les41_31.mp3
+les09_07.mp3	les17_15.mp3	les25_16.mp3	les33_41.mp3	les41_32.mp3
+les09_08.mp3	les17_16.mp3	les25_17.mp3	les33_42.mp3	les41_33.mp3
+les09_09.mp3	les17_17.mp3	les25_18.mp3	les33_43.mp3	les41_34.mp3
+les09_10.mp3	les17_18.mp3	les25_19 .mp3	les33_44.mp3	les41_35.mp3
+les09_11.mp3	les17_19.mp3	les25_20.mp3	les33_45.mp3	les41_36.mp3
+les09_12.mp3	les17_20.mp3	les25_21.mp3	les33_46.mp3	les41_37.mp3
+les09_13.mp3	les17_21.mp3	les25_22.mp3	les33_47.mp3	les41_38.mp3
+les09_14.mp3	les17_22.mp3	les25_23.mp3	les33_48.mp3	les41_39.mp3
+les09_15.mp3	les17_23.mp3	les25_24.mp3	les33_49.mp3	les41_40.mp3
+les09_16.mp3	les17_24.mp3	les25_25.mp3	les33_50.mp3	les41_41.mp3
+les09_17.mp3	les17_25.mp3	les25_26.mp3	les33_51.mp3	les41_42.mp3
+les09_18.mp3	les17_26.mp3	les25_27.mp3	les33_52.mp3	les41_43.mp3
+les09_19.mp3	les17_27.mp3	les25_28.mp3	les34_00.mp3	les41_44.mp3
+les09_20.mp3	les17_28.mp3	les25_29.mp3	les34_01.mp3	les41_45.mp3
+les09_21.mp3	les17_29.mp3	les25_30.mp3	les34_02.mp3	les41_46.mp3
+les09_22.mp3	les17_30.mp3	les25_31.mp3	les34_03.mp3	les41_47.mp3
+les09_23.mp3	les17_31.mp3	les25_32.mp3	les34_04.mp3	les41_48.mp3
+les09_24.mp3	les17_32.mp3	les25_33.mp3	les34_05.mp3	les41_49.mp3
+les09_25.mp3	les17_33.mp3	les25_34.mp3	les34_06.mp3	les41_50.mp3
+les09_26.mp3	les17_34.mp3	les25_35.mp3	les34_07.mp3	les41_51.mp3
+les09_27.mp3	les17_35.mp3	les25_36.mp3	les34_08.mp3	les41_52.mp3
+les09_28.mp3	les17_36.mp3	les25_37.mp3	les34_09.mp3	les41_53.mp3
+les09_29.mp3	les17_37.mp3	les25_38.mp3	les34_10.mp3	les41_54.mp3
+les09_30.mp3	les17_38.mp3	les25_39.mp3	les34_11.mp3	les41_55.mp3
+les09_31.mp3	les17_39.mp3	les25_40.mp3	les34_12.mp3	les42_00.mp3
+les09_32.mp3	les17_40.mp3	les25_41.mp3	les34_13.mp3	les42_01.mp3
+les09_33.mp3	les17_41.mp3	les25_42.mp3	les34_14.mp3	les42_02.mp3
+les09_34.mp3	les17_42.mp3	les25_43.mp3	les34_15.mp3	les42_03.mp3
+les09_35.mp3	les17_43.mp3	les26_01.mp3	les34_16.mp3	les42_04.mp3
+les09_36.mp3	les17_44.mp3	les26_02.mp3	les34_17.mp3	les42_05.mp3
+les09_37.mp3	les17_45.mp3	les26_03.mp3	les34_18.mp3	les42_06.mp3
+les09_38.mp3	les17_46.mp3	les26_04.mp3	les34_19.mp3	les42_07.mp3
+les09_39.mp3	les17_47.mp3	les26_05.mp3	les34_20.mp3	les42_08.mp3
+les09_40.mp3	les17_48.mp3	les26_06.mp3	les34_21.mp3	les42_09.mp3
+les09_41.mp3	les17_49.mp3	les26_07.mp3	les34_22.mp3	les42_10.mp3
+les09_42.mp3	les17_50.mp3	les26_08.mp3	les34_23.mp3	les42_11.mp3
+les09_43.mp3	les17_51.mp3	les26_09.mp3	les34_24.mp3	les42_12.mp3
+les09_44.mp3	les17_52.mp3	les26_10.mp3	les34_25.mp3	les42_13.mp3
+les09_45.mp3	les18_00.mp3	les26_11.mp3	les34_26.mp3	les42_14.mp3
+les09_46.mp3	les18_01.mp3	les26_12.mp3	les34_27.mp3	les42_15.mp3
+les09_47.mp3	les18_02.mp3	les26_13.mp3	les34_28.mp3	les42_16.mp3
+les09_48.mp3	les18_03.mp3	les26_14.mp3	les34_29.mp3	les42_17.mp3
+les09_49.mp3	les18_04.mp3	les26_15.mp3	les34_30.mp3	les42_18.mp3
+les09_50.mp3	les18_05.mp3	les26_16.mp3	les34_31.mp3	les42_19.mp3
+les09_51.mp3	les18_06.mp3	les26_17.mp3	les34_32.mp3	les42_20.mp3
+les09_52.mp3	les18_07.mp3	les26_18.mp3	les34_33.mp3	les42_21.mp3
+les09_53.mp3	les18_08.mp3	les26_19.mp3	les34_34.mp3	les42_22.mp3
+les09_54.mp3	les18_09.mp3	les26_20.mp3	les34_35.mp3	les42_23.mp3
+les09_55.mp3	les18_10.mp3	les26_21.mp3	les34_36.mp3	les42_24.mp3
+les09_56.mp3	les18_11.mp3	les26_22.mp3	les34_37.mp3	les42_25.mp3
+les09_57.mp3	les18_12.mp3	les26_23.mp3	les34_38.mp3	les42_26.mp3
+les09_58.mp3	les18_13.mp3	les26_24.mp3	les34_39.mp3	les42_27.mp3
+les09_59.mp3	les18_14.mp3	les26_25.mp3	les34_40.mp3	les42_28.mp3
+les09_60.mp3	les18_15.mp3	les26_26.mp3	les34_41.mp3	les42_29.mp3
+les10_00.mp3	les18_16.mp3	les26_27.mp3	les34_42.mp3	les42_30.mp3
+les10_01.mp3	les18_17.mp3	les26_28.mp3	les34_43.mp3	les42_31.mp3
+les10_02.mp3	les18_18.mp3	les26_29.mp3	les34_44.mp3	les42_32.mp3
+les10_03.mp3	les18_19.mp3	les26_30.mp3	les34_45.mp3	les42_33.mp3
+les10_04.mp3	les18_20.mp3	les26_31.mp3	les34_46.mp3	les42_34.mp3
+les10_05.mp3	les18_21.mp3	les26_32.mp3	les34_47.mp3	les42_35.mp3
+les10_06.mp3	les18_22.mp3	les26_33.mp3	les34_48.mp3	les42_36.mp3
+les10_07.mp3	les18_23.mp3	les26_34.mp3	les34_49.mp3	les42_37.mp3
+les10_08.mp3	les18_24.mp3	les26_35.mp3	les34_50.mp3	les42_38.mp3
+les10_09.mp3	les18_25.mp3	les26_36.mp3	les34_51.mp3	les42_39.mp3
+les10_10.mp3	les18_26.mp3	les26_37.mp3	les35_00.mp3	les42_40.mp3
+les10_11.mp3	les18_27.mp3	les26_38.mp3	les35_01.mp3	les42_41.mp3
+les10_12.mp3	les18_28.mp3	les26_39.mp3	les35_02.mp3	les42_42.mp3
+les10_13.mp3	les18_29.mp3	les26_40.mp3	les35_03.mp3	les42_43.mp3
+les10_14.mp3	les18_30.mp3	les26_41.mp3	les35_04.mp3	les42_44.mp3
+les10_15.mp3	les18_31.mp3	les26_42.mp3	les35_05.mp3	les42_45.mp3
+les10_16.mp3	les18_32.mp3	les26_43.mp3	les35_06.mp3	les42_46.mp3
+les10_17.mp3	les18_33.mp3	les26_44.mp3	les35_07.mp3	les42_47.mp3
+les10_18.mp3	les18_34.mp3	les26_45.mp3	les35_08.mp3	les42_48.mp3
+les10_19.mp3	les18_35.mp3	les26_46.mp3	les35_09.mp3	les42_49.mp3
+les10_20.mp3	les18_36.mp3	les26_47.mp3	les35_10.mp3	les42_50.mp3
+les10_21.mp3	les18_37.mp3	les27_01.mp3	les35_11.mp3	les42_51.mp3
+les10_22.mp3	les18_38.mp3	les27_02.mp3	les35_12.mp3	les42_52.mp3
+les10_23.mp3	les18_39.mp3	les27_03.mp3	les35_13.mp3	les42_53.mp3
+les10_24.mp3	les18_40.mp3	les27_04.mp3	les35_14.mp3	les42_54.mp3
+les10_25.mp3	les18_41.mp3	les27_05.mp3	les35_15.mp3	les42_55.mp3
+les10_26.mp3	les18_42.mp3	les27_06.mp3	les35_16.mp3	les42_56.mp3
+les10_27.mp3	les18_43.mp3	les27_07.mp3	les35_17.mp3	output.txt
+les10_28.mp3	les18_44.mp3	les27_08.mp3	les35_18.mp3	showname.py
+les10_29.mp3	les18_45.mp3	les27_09.mp3	les35_19.mp3
+(base) jieranli@jierans-MacBook-Air groenboek % chmod +x combinemp3.py 
+
+(base) jieranli@jierans-MacBook-Air groenboek % ls -l your_script.py
+
+ls: your_script.py: No such file or directory
+(base) jieranli@jierans-MacBook-Air groenboek % ls -l combinemp3.py 
+
+-rwxr-xr-x  1 jieranli  staff  1424 Mar 10 00:18 combinemp3.py
+(base) jieranli@jierans-MacBook-Air groenboek % ./combinemp3.py 
+from: can't read /var/mail/pydub
+./combinemp3.py: line 2: import: command not found
+./combinemp3.py: line 3: import: command not found
+from: can't read /var/mail/pydub.playback
+./combinemp3.py: line 8: AudioSegment.ffmpeg: command not found
+./combinemp3.py: line 9: AudioSegment.ffprobe: command not found
+./combinemp3.py: line 12: syntax error near unexpected token `('
+./combinemp3.py: line 12: `def combine_files(folder_path, prefix):'
+(base) jieranli@jierans-MacBook-Air groenboek % python3 combinemp3.py 
+Combined files les01_01 to les01_41 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les01_combined.mp3
+Combined files les02_01 to les02_34 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les02_combined.mp3
+Combined files les03_01 to les03_35 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les03_combined.mp3
+Combined files les04_01 to les04_42 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les04_combined.mp3
+Combined files les05_01 to les05_44 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les05_combined.mp3
+Combined files les06_01 to les06_35 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les06_combined.mp3
+Combined files les07_01 to les07_51 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les07_combined.mp3
+Combined files les08_01 to les08_42 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les08_combined.mp3
+Combined files les09_01 to les09_60 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les09_combined.mp3
+Combined files les10_01 to les10_44 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les10_combined.mp3
+Combined files les11_01 to les11_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les11_combined.mp3
+Combined files les12_01 to les12_49 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les12_combined.mp3
+Combined files les13_01 to les13_49 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les13_combined.mp3
+Combined files les14_01 to les14_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les14_combined.mp3
+Combined files les15_01 to les15_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les15_combined.mp3
+Combined files les16_01 to les16_50 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les16_combined.mp3
+Combined files les17_01 to les17_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les17_combined.mp3
+Combined files les18_01 to les18_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les18_combined.mp3
+Combined files les19_01 to les19_51 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les19_combined.mp3
+Combined files les20_01 to les20_49 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les20_combined.mp3
+Combined files les21_01 to les21_57 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les21_combined.mp3
+Combined files les22_01 to les22_46 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les22_combined.mp3
+Combined files les23_01 to les23_56 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les23_combined.mp3
+Combined files les24_01 to les24_54 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les24_combined.mp3
+Combined files les25_01 to les25_44 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les25_combined.mp3
+Combined files les26_01 to les26_47 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les26_combined.mp3
+Combined files les27_01 to les27_40 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les27_combined.mp3
+Combined files les28_01 to les28_52 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les28_combined.mp3
+Combined files les29_01 to les29_55 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les29_combined.mp3
+Combined files les30_01 to les30_50 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les30_combined.mp3
+Combined files les31_01 to les31_54 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les31_combined.mp3
+Combined files les32_01 to les32_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les32_combined.mp3
+Combined files les33_01 to les33_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les33_combined.mp3
+Combined files les34_01 to les34_52 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les34_combined.mp3
+Combined files les35_01 to les35_52 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les35_combined.mp3
+Combined files les36_01 to les36_53 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les36_combined.mp3
+Combined files les37_01 to les37_56 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les37_combined.mp3
+Combined files les38_01 to les38_56 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les38_combined.mp3
+Combined files les39_01 to les39_59 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les39_combined.mp3
+Combined files les40_01 to les40_48 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les40_combined.mp3
+Combined files les41_01 to les41_56 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les41_combined.mp3
+Combined files les42_01 to les42_57 into /Users/jieranli/Downloads/delftsemethodegood/groenboek/les42_combined.mp3
+(base) jieranli@jierans-MacBook-Air groenboek % 
