@@ -1,10 +1,7 @@
 from pydub import AudioSegment
 import os
-import re
 
-from pydub.playback import play
-
-# Specify the path to ffprobe
+# Specify the path to ffmpeg and ffprobe
 AudioSegment.ffmpeg = "/opt/homebrew/bin/ffmpeg"
 AudioSegment.ffprobe = "/opt/homebrew/bin/ffprobe"
 
@@ -13,15 +10,18 @@ def combine_files(folder_path, prefix):
     # Get all files in the folder
     files = os.listdir(folder_path)
     
+    files.sort()
+    
     # Filter files based on the prefix
     matching_files = [file for file in files if file.startswith(prefix)]
     
-    # Sort matching files based on the numerical part of the name
-    matching_files.sort(key=lambda x: int(re.search(r'\d+', x).group()))
+    # Sort matching files by name
+    matching_files.sort()
     
     # Combine the audio segments
     combined = AudioSegment.silent()
     for file_name in matching_files:
+        print(file_name)
         file_path = os.path.join(folder_path, file_name)
         segment = AudioSegment.from_mp3(file_path)
         combined += segment
@@ -33,7 +33,7 @@ def combine_files(folder_path, prefix):
     print(f"Combined files {prefix}_01 to {prefix}_{len(matching_files)} into {output_path}")
 
 # Replace 'path_to_your_folder' with the path to the folder containing your MP3 files
-folder_path = '/Users/jieranli/Downloads/delftsemethodegood/groenboek'
+folder_path = '/Users/jieranli/Downloads/delftsemethodegood/groenboeksex'
 
 # Combine files for each prefix
 for prefix in [f"les{i:02d}" for i in range(1, 43)]:
